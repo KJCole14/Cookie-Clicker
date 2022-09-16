@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookie Clicker Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Cookies!!</h1>
+    <h2 id="cookies">0</h2>
+
+    <img
+      onclick="score()"
+      src="/Images/Cookie.png"
+      alt="Chocolate chip cookie"
+      id="cookie"
+    />
+
+    <aside class="upgrades">
+      <h3>upgrades</h3>
+
+      <p>cursor upgrade</p>
+      <button onclick="cursorUpgrade()" id="cUp">Upgrade</button>
+    </aside>
+    <script src="app.js"></script>
+  </body>
+</html>
